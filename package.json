@@ -1,0 +1,27 @@
+{
+    "name": "cmb-jest",
+    "version": "1.0.0",
+    "description": "pruebas unitarias con jest",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest",
+        "test:coverage": "jest --coverage",
+        "test:watch": "jest --watchAll"
+    },
+    "keywords": [
+        "jest",
+        "pruebas",
+        "unitarias"
+    ],
+    "author": "frank yupanqui <fyupanquia@outlook.com>",
+    "license": "MIT",
+    "devDependencies": {
+        "@babel/plugin-transform-runtime": "^7.10.4",
+        "@babel/preset-env": "^7.10.4",
+        "@babel/runtime": "^7.10.4",
+        "axios": "^0.19.2",
+        "babel-jest": "^26.1.0",
+        "babel-polyfill": "^6.26.0",
+        "jest": "^26.1.0"
+    }
+}
